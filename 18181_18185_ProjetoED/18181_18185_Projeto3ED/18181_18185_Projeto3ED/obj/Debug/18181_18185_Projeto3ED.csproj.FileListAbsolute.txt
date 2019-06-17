@@ -1,0 +1,9 @@
+Z:\Projeto3\18181_18185_ProjetoED\18181_18185_Projeto3ED\18181_18185_Projeto3ED\bin\Debug\18181_18185_Projeto3ED.exe.config
+Z:\Projeto3\18181_18185_ProjetoED\18181_18185_Projeto3ED\18181_18185_Projeto3ED\bin\Debug\18181_18185_Projeto3ED.exe
+Z:\Projeto3\18181_18185_ProjetoED\18181_18185_Projeto3ED\18181_18185_Projeto3ED\bin\Debug\18181_18185_Projeto3ED.pdb
+Z:\Projeto3\18181_18185_ProjetoED\18181_18185_Projeto3ED\18181_18185_Projeto3ED\obj\Debug\_18181_18185_Projeto3ED.Form1.resources
+Z:\Projeto3\18181_18185_ProjetoED\18181_18185_Projeto3ED\18181_18185_Projeto3ED\obj\Debug\_18181_18185_Projeto3ED.Properties.Resources.resources
+Z:\Projeto3\18181_18185_ProjetoED\18181_18185_Projeto3ED\18181_18185_Projeto3ED\obj\Debug\18181_18185_Projeto3ED.csproj.GenerateResource.Cache
+Z:\Projeto3\18181_18185_ProjetoED\18181_18185_Projeto3ED\18181_18185_Projeto3ED\obj\Debug\18181_18185_Projeto3ED.csproj.CoreCompileInputs.cache
+Z:\Projeto3\18181_18185_ProjetoED\18181_18185_Projeto3ED\18181_18185_Projeto3ED\obj\Debug\18181_18185_Projeto3ED.exe
+Z:\Projeto3\18181_18185_ProjetoED\18181_18185_Projeto3ED\18181_18185_Projeto3ED\obj\Debug\18181_18185_Projeto3ED.pdb
