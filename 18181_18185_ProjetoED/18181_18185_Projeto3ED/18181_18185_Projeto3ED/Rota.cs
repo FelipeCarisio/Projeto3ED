@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace _18181_18185_Projeto3ED
 {
-    class Rota
+    class Rota : IComparable<Rota>, IGravarEmArquivo
     {
         private FilaLista<Caminho> Caminhos;
         
@@ -57,14 +57,36 @@ namespace _18181_18185_Projeto3ED
         {
             int[] vet = new int[Caminhos.Tamanho() + 1];
             Caminho[] vetC = Caminhos.ToArray();
-            int i ;
-            for ( i = 0; i < Caminhos.Tamanho(); i++)
+            int i, f;
+
+            for ( i = 0, f = 1; i < Caminhos.Tamanho(); i += 2, f++)
             {
-                vet[i] = vetC[i].CodOrigem;
+                if (f % 2 == 0)
+                    vet[i + 1] = vetC[f - 1].CodDestino;
+                else
+                {
+                    vet[i] = vetC[f - 1].CodOrigem;
+                    vet[i + 1] = vetC[f - 1].CodDestino;
+                }
             }
-            vet[i] = vetC[i].CodDestino;
+
             return vet;
         }
 
+        public string ParaArquivo()
+        {
+            string r = "";
+            foreach(Caminho s in Caminhos.ToArray())
+            {
+                r += s.ToString() + ", ";
+            }
+
+            return r;
+        }
+
+        public int CompareTo(Rota outro)
+        {
+            return this.DistanciaTotal() - outro.DistanciaTotal();
+        }
     }
 }

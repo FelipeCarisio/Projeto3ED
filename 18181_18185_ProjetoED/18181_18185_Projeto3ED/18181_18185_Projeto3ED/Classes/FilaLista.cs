@@ -1,6 +1,6 @@
 ﻿using System;
 class FilaLista<Dado> : ListaSimples<Dado>, IQueue<Dado>
-                        where Dado : IComparable<Dado>, IGravarEmArquivo
+                        where Dado : IComparable<Dado>
 {
   public void Enfileirar(Dado elemento) // inclui objeto “elemento”
   {

@@ -21,6 +21,12 @@ namespace _18181_18185_Projeto3ED
         public int Preco { get => preco; set => preco = value; }
         public int Tempo { get => tempo; set => tempo = value; }
 
+        public Caminho (int codO, int codD, int D)
+        {
+            this.CodDestino = codD;
+            this.CodOrigem = codO;
+            this.Distancia = D;
+        }
         public Caminho(string Linha)
         {
             this.CodOrigem = int.Parse(Linha.Substring(inicioCodO, tamanhoCodO));

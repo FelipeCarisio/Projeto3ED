@@ -23,6 +23,12 @@ namespace _18181_18185_Projeto3ED
             this.Y = int.Parse(linha.Substring(inicioY, tamanhoY).Trim(' '));
         }
 
+        public Cidade(string linhaL, bool selecionado)
+        {
+            this.Nome = linhaL.Substring(inicioNome, tamanhoNome);
+            this.Cod = int.Parse(linhaL.Substring(inicioCod, tamanhoCod));
+        }
+
         public Cidade(int codP)
         {
             this.cod = codP;

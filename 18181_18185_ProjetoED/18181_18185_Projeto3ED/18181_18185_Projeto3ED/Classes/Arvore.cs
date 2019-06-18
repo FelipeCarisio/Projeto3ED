@@ -200,10 +200,10 @@ namespace _18181_18185_Projeto3ED
     }
 
     public Dado get(Dado dado)
-        {
-            this.Existe(dado);
-            return atual.Info;
-        }
+    {
+        this.Existe(dado);
+        return atual.Info;
+    }
 
     // Exercício 8 – Percurso por níveis
     public void EscreverPorNiveis()
